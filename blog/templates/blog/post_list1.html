@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>Inicio</title>
+    
+        {# Cargamos la librería #}
+        {% load bootstrap4 %}
+        {# CSS Bootstrap #}
+        {% bootstrap_css %}
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" style="font-family: 'Times New Roman', Times, serif;
+                                        font-weight: bold;">SCRAPERS</a>
+    </nav>
+
+    <div class="row" style="width: auto;
+                            height: 600px;
+                            background-color: black;">
+        <div class="col">
+        </div>
+
+        <div class="col">
+            <br><br>
+            <div class="container-fluid" style="background-color: white;
+                                                border-radius: 5px;
+                                                padding: 20px;
+                                                font-family: 'Times New Roman', Times, serif;">
+                <label for="usr">Username: </label>
+                <input type="text" class="form-control" id="usr">
+                <br>
+                <button type="button" class="btn btn-secondary" style="font-family: 'Times New Roman', Times, serif;
+                                                                        text-align: center;">Generar</button>
+            </div>
+        </div>
+
+        <div class="col">
+        </div>
+    </div>
+</body>
+</html>
